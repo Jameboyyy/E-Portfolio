@@ -1,6 +1,7 @@
 import React from 'react'
 import NavLogo from '../assets/plogo.png'
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Nav = () => {
   return (
@@ -23,6 +24,23 @@ const Nav = () => {
                             Contact
                         </Link>
                     </li>
+                    <li className="nav__list">
+                        <Link to="/" className="nav__link">
+                            Resume
+                        </Link>
+                    </li>
+                    <div className="social__list">
+                    <li className="social__links">
+                        <Link to="https://github.com/Jameboyyy" className="social__link" target="_blank">
+                            <FontAwesomeIcon icon="fa-brands fa-square-github" className="social" />
+                        </Link>
+                    </li>
+                    <li className="social__links">
+                        <Link to="https://www.linkedin.com/in/jameboyyy" className="social__link" target="_blank">
+                            <FontAwesomeIcon icon="fa-brands fa-linkedin" className="social" />
+                        </Link>
+                    </li>
+                    </div>
                 </ul>
             </div>
         </nav>
