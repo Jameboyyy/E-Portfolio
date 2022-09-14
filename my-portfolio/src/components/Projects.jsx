@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import BookLibrary from '../assets/BookLibrary.png'
+import Project1 from '../assets/BookLibrary.png'
+import Project2 from '../assets/FCCWebsite.png'
+import ReactJsAlert from 'reactjs-alert';
 
 const Projects = () => {
     return (
@@ -13,7 +15,7 @@ const Projects = () => {
                 <ul className="project__list">
                     <li className="project">
                         <div className="project__wrapper">
-                            <img src={BookLibrary} alt="" className="project__img" />
+                            <img src={Project1} alt="" className="project__img" />
                             <div className="project__wrapper--bg"></div>
                             <div className="project__description">
                                 <h2 className="project__description--title">Book Library</h2>
@@ -21,6 +23,25 @@ const Projects = () => {
                                 <p className="project__description--para">
                                     E-Commerce that mocks an Online Book Store
                                 </p>
+                                <Link to="">
+                                    <FontAwesomeIcon icon="fa-solid fa-link" className="project__link" beat />
+                                </Link>
+                            </div>
+                        </div>
+                    </li>
+                    <li className="project">
+                        <div className="project__wrapper">
+                            <img src={Project2} alt="" className="project__img" />
+                            <div className="project__wrapper--bg"></div>
+                            <div className="project__description">
+                                <h2 className="project__description--title">FCC Website</h2>
+                                <h4 className="project__description--sub-title">Html, CSS, JavaScript</h4>
+                                <p className="project__description--para">
+                                    Official Family Christian Church Website
+                                </p>
+                                <Link to="">
+                                    <FontAwesomeIcon icon="fa-solid fa-link" className="project__link FCC" beat onClick={() => alert('Website is currently undergoing new updates. Sorry about that!')} />
+                                </Link>
                             </div>
                         </div>
                     </li>

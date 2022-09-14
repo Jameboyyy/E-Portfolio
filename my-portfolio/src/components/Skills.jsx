@@ -4,9 +4,9 @@ import css from '../assets/css.png'
 import javascript from '../assets/js.png'
 import react from '../assets/react.png'
 
-export default function Skills() {
+ const Skills = () => {
   return (
-    <section id="#skills">
+    <section id="skills">
         <div className="skills__container">
             <h2 className="skills__heading">
                 Skills
@@ -27,5 +27,7 @@ export default function Skills() {
             </div>
         </div>
     </section>
-  )
+  );
 }
+
+export default Skills;

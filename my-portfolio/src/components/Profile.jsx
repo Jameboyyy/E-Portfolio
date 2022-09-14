@@ -3,7 +3,7 @@ import Typewriter from 'typewriter-effect';
 
 const Profile = () => {
   return (
-    <section>
+    <section id="profile">
         <div className="profile__container">
             <div className="profile">
             <div className="wave"></div>

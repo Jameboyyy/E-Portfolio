@@ -1,6 +1,6 @@
 import React from 'react'
 import NavLogo from '../assets/plogo.png'
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Nav = () => {
@@ -19,7 +19,7 @@ const Nav = () => {
                             Projects
                         </Link>
                     </li>
-                    <li className="nav__list">
+                    <li className="nav__list" onclick="toggleContact()">
                         <Link to="#contact" className="nav__link">
                             Contact
                         </Link>

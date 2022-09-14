@@ -4,10 +4,10 @@ import App from './App';
 import './index.css'
 import reportWebVitals from './reportWebVitals';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faLink } from '@fortawesome/free-solid-svg-icons';
+import { faLink, faXmark, faSpinner } from '@fortawesome/free-solid-svg-icons';
 import { faSquareGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 
-library.add(faSquareGithub, faLinkedin, faLink)
+library.add(faSquareGithub, faLinkedin, faLink, faXmark, faSpinner)
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
