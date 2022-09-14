@@ -11,10 +11,10 @@ function App() {
   return (
     <Router>
         <Nav />
-        <Contact />
         <Profile />
         <Skills />
         <Projects />
+        <Contact />
         <Footer />
     </Router>
   );
