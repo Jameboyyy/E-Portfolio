@@ -24,11 +24,6 @@ const Nav = () => {
                             Contact
                         </Link>
                     </li>
-                    <li className="nav__list">
-                        <Link to="/" className="nav__link">
-                            Resume
-                        </Link>
-                    </li>
                     <div className="social__list">
                     <li className="social__links">
                         <Link to="https://github.com/Jameboyyy" className="social__link" target="_blank">

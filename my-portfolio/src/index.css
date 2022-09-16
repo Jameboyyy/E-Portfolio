@@ -119,14 +119,6 @@ nav {
 
 /*
 
-CONTACT SECTOIN
-
-*/
-
-
-
-/*
-
 PROFILE SECTION
 
 */
@@ -274,7 +266,7 @@ PROJECT SECTION
     padding: 50px 0;
     width: 100%;
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 1400px;
     z-index: 3;
 }
 
@@ -307,7 +299,7 @@ PROJECT SECTION
 .project__description {
     position: absolute;
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 1400px;
     width: 100%;
     opacity: 0;
     transform: translateY(100%);
@@ -357,6 +349,122 @@ PROJECT SECTION
 
 /*
 
+CONTACT SECTOIN
+
+*/
+
+.contact__container {
+    position: relative;
+    max-width: 1400px;
+    width: 100%;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 10%;
+    border-radius: 20px;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.contact {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    height: 100%;
+    justify-content: center;
+}
+
+.contact__half {
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+}
+
+.contact__about {
+    height: 100%;
+    padding: 100px 0;
+    max-width: 100%;
+    background-color: #111111;
+    color: #fff;
+}
+
+.contact__info {
+    height: 100%;
+    padding: 100px 0;
+    max-width: 100%;
+}
+
+.contact__title {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+
+.form__item {
+    margin-bottom: 20px;
+}
+
+.form__item--label {
+    display: flex;
+    padding-left: 12px;
+}
+
+input, textarea {
+    width: 100%;
+    background-color: #111111;
+    color: #fff;
+    outline: none;
+    border: 3px solid #c0c4cc;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 40px;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+    margin-top: 8px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input:hover, textarea:hover {
+    border-color: #dcdfe6;
+}
+
+input:focus, textarea:focus {
+    border-color: #dcdfe6;
+}
+
+.form__submit {
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: #111111;
+    font-weight: 700;
+    width: 100%;
+    max-width: 240px;
+    padding: 12px 24px;
+    font-size: 20px;
+    transition: all 300ms ease;
+}
+
+.form__submit:hover {
+    border-color: #111111;
+    background-color: transparent;
+    color: #fff;
+}
+
+.form__submit:active {
+    border-color: #fff;
+    color: #fff;
+}
+/*
+
 FOOTER SECTION
 
 */
@@ -366,6 +474,7 @@ footer {
     display: flex;
     position: relative;
     background-color: #111111;
+    margin-top: 20%;
     z-index: 2;
 }
 

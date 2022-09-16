@@ -15,12 +15,7 @@ const Footer = () => {
                 <ul className="footer__links">
                     <li className="footer__list">
                         <Link to="#profile" className="footer__link">
-                            Home
-                        </Link>
-                    </li>
-                    <li className="footer__list">
-                        <Link to="#contact" className="footer__link">
-                            Contact
+                            Profile
                         </Link>
                     </li>
                     <li className="footer__social__links">

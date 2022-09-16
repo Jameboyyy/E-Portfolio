@@ -40,10 +40,10 @@ const Contact = () => {
                 Send it my way
               </button>
             </form>
-            <div class='modal__overlay modal__overlay--loading'>
+            <div class='contact__overlay contact__overlay--loading'>
               <FontAwesomeIcon icon='fa-solid fa-spinner' />
             </div>
-            <div class='modal__overlay modal__overlay--success'>
+            <div class='contact__overlay contact__overlay--success'>
               Thanks for the message! Looking forward to speaking to you soon.
             </div>
           </div>
