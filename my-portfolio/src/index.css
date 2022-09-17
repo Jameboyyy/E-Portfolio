@@ -615,20 +615,21 @@ RESPONSIVE SECTION
     .contact__sub-title {
         font-size: 16px;
     }
-
     .contact__para {
         font-size: 14px;
     }
     .project__description--title {
-        font-size: 24px;
+        font-size: 20px;
+        margin-bottom: 15px;
     }
     .project__description--sub-title {
-        font-size: 20px;
+        font-size: 18px;
+        margin-bottom: 7px;
     }
     .project__description--para {
-        font-size: 14px;
+        font-size: 12px;
     }
     .project__link {
-        font-size: 18px;
+        font-size: 16px;
     }
 }
