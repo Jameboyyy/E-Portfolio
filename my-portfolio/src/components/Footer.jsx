@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import FooterLogo from '../assets/plogo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -14,7 +14,7 @@ const Footer = () => {
                 </p>
                 <ul className="footer__links">
                     <li className="footer__list">
-                        <Link to="#profile" className="footer__link">
+                        <Link to="#nav" className="footer__link">
                             Profile
                         </Link>
                     </li>
