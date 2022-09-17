@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Project1 from '../assets/BookLibrary.png'
 import Project2 from '../assets/FCCWebsite.png'
-import ReactJsAlert from 'reactjs-alert';
+import { ExternalLink } from 'react-external-link'
 
 const Projects = () => {
     return (
@@ -23,9 +23,9 @@ const Projects = () => {
                                 <p className="project__description--para">
                                     E-Commerce that mocks an Online Book Store
                                 </p>
-                                <Link to="">
+                                <ExternalLink href="https://e-booklibrary.netlify.app/" target="_blank">
                                     <FontAwesomeIcon icon="fa-solid fa-link" className="project__link" beat />
-                                </Link>
+                                </ExternalLink>
                             </div>
                         </div>
                     </li>

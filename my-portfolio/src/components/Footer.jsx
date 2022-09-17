@@ -2,6 +2,7 @@ import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import FooterLogo from '../assets/plogo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { ExternalLink } from 'react-external-link'
 
 const Footer = () => {
 
@@ -19,14 +20,14 @@ const Footer = () => {
                         </Link>
                     </li>
                     <li className="footer__social__links">
-                        <Link to="https://github.com/Jameboyyy" className="footer__social__link" target="_blank">
+                        <ExternalLink href="https://github.com/Jameboyyy" className="footer__social__link" target="_blank">
                             <FontAwesomeIcon icon="fa-brands fa-square-github" className="social" />
-                        </Link>
+                        </ExternalLink>
                     </li>
                     <li className="footer__social__links">
-                        <Link to="https://www.linkedin.com/in/jameboyyy" className="footer__social__link" target="_blank">
+                        <ExternalLink href="https://www.linkedin.com/in/jameboyyy" className="footer__social__link" target="_blank">
                             <FontAwesomeIcon icon="fa-brands fa-linkedin" className="social" />
-                        </Link>
+                        </ExternalLink>
                     </li>
                 </ul>
             </div>
