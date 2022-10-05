@@ -78,7 +78,7 @@ const Contact = (props) => {
               engineer studying at California State University of Fullerton. I
               am currently pursuing a bachelors degree in computer science. I
               specialize in Front End and UI/UX Design. I have a strong passion
-              for building websites that provides great user experiences. I am
+              for building websites that provide great user experiences. I am
               looking for internships to expand my skill set and grow in. I am
               also open to any other opportunities.
             </p>
