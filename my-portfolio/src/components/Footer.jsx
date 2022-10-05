@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <footer>
             <div className="footer__container">
-                <img src={FooterLogo} alt="" className="logo" />
+                <img src={FooterLogo} alt="" className="logo footer__logo" />
                 <p className="footer__para">
                     Copyright &copy; 2022 James Cadavona
                 </p>

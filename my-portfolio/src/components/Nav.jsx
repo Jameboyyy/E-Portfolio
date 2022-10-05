@@ -9,7 +9,9 @@ const Nav = () => {
         <nav>
             <section id ="nav">
                 <div className="nav__container">
-                    <img src={NavLogo} alt="" className="logo" />
+                    <Link to="/">
+                        <img src={NavLogo} alt="" className="logo" />
+                    </Link>
                     <ul className="nav__links">
                         <li className="nav__list">
                             <Link to="#skills" className="nav__link">

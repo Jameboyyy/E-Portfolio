@@ -46,7 +46,7 @@ nav {
 }
 
 .logo {
-    max-width: 10%;
+    max-width: 25%;
     height: auto;
 }
 
@@ -523,11 +523,12 @@ footer {
 }
 
 .footer__para {
-    max-width: 400px;
+    max-width: 300px;
     width: 100%;
     align-items: center;
     color: #fff;
     text-align: center;
+    margin-right: 30px;
 }
 
 .footer__links {
@@ -563,12 +564,21 @@ footer {
     margin-left: 12px;
 }
 
+.footer__logo {
+    max-width: 10%;
+}
 
 /*
 
 RESPONSIVE SECTION
 
 */
+
+@media (max-width: 1195px) {
+    .social__list {
+        display: flex;
+    }
+}
 
 @media (max-width: 1024px) {
     .contact__title {
